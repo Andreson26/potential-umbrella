@@ -40,8 +40,8 @@ const SidebarLink = ({
         className={`cursor-pointer flex items-center ${
           isCollapsed ? "justify-center py-4" : "justify-start px-8 py-4"
         }
-        hover:text-blue-500 hover:bg-blue-100 gap-3 transition-colors ${
-          isActive ? "bg-blue-200 text-white" : ""
+         hover:bg-blue-400 gap-3 transition-colors ${
+          isActive ? "bg-blue-400 text-white" : ""
         }
       }`}
       >
@@ -81,7 +81,7 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        IMAGE
+        AC
         {/*<Image
           src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
           alt="edstock-logo"
@@ -94,7 +94,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          ACFortunate
+          Fortunate
         </h1>
 
         <button

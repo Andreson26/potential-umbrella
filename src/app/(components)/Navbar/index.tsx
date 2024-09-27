@@ -73,8 +73,8 @@ const Navbar = () => {
               height={50}
               className="rounded-full h-full object-cover"
             />*/}
-            IMAGE
-            <span className="font-semibold">ACFortunate</span>
+            AC
+            <span className="font-semibold">Fortunate</span>
           </div>
         </div>
         <Link href="/settings">
